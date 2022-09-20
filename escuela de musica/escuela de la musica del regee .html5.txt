@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"width="12" height="12"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div id="page-wrapper">
+      <header id="header">
+        <div class="logo">
+          <img
+            id="header-img"
+            src="https://www.escuelaorganigrama.com/wp-content/uploads/2015/06/Logo-Escuela-OrganigramaS-700x200.png"
+            alt="Music Zone logo"
+          />
+        </div>
+
+        <nav id="nav-bar">
+          <ul>
+            <li><a class="nav-link" href="#features">servicio que Ofrecemos</a></li>
+            <li><a class="nav-link" href="#how-it-works">Pelicula sobre la Esc-Musica</a></li>
+            <li><a class="nav-link" href="#pricing">Precios</a></li>
+          </ul>
+        </nav>
+      </header>
+      <div class="container"></div>
+      <section id="hero">
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+          <h2>Ama la Muisca, vive el momento...</h2>
+                  <h3>Ingresa tu correo electronico Para mas Informacion!</h3>
+          <input
+            name="email"
+            id="email"
+            type="email"
+            placeholder="Ingrese su Correo Electronico"
+            required
+          />
+          <input id="submit" type="submit" value="envio" class="envio btn" />
+        </form>
+      </section>
+
+      <div class="container">
+        <section id="features">
+          <div class="grid">
+            <div class="icon"><i class="fa fa-3x fa-fire"></i></div>
+            <div class="desc">
+              <h2>Maestros Para Cada Clase 👨‍🏫 </h2>
+              <p>
+               Contamos con los maestros profeccionales y calificados para la enseña y tener un apredizaje 
+               correcto en tu educacion Musical.
+              </p>
+            </div>
+          </div>
+          <div class="grid">
+            <div class="icon"><i class="fa fa-3x fa-truck"></i></div>
+            <div class="desc">
+              <h2>Contamos con clases adomicilio 🚗 </h2>
+              <p>
+                Nos aseguramos de que recibas tu trombón tan pronto como hayamos terminado de fabricarlo. También proporcionamos devoluciones gratuitas si no está satisfecho.
+              </p>
+            </div>
+          </div>
+          <div class="grid">
+            <div class="icon">
+              <i class="fa fa-3x fa-battery-full" aria-hidden="true"></i>
+            </div>
+            <div class="desc">
+              <h2> Somos muy seguros y confiables 🏫👩‍🏫 💯! </h2>
+              <p>
+                 Te damos la mayor confianza en nuestro desempeño como Institución y el mejor aprendizaje.
+              </p>
+            </div>
+          </div>
+        </section>
+        <section id="how-it-works">
+          <iframe
+            id="video"
+            height="315"
+            src= "https://www.youtube.com/embed/jaLGH5J2OeM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            frameborder="0"
+            allowfullscreen
+          ></iframe>
+        </section>
+        <section id="pricing">
+          <div class="product" id="tenor">
+            <div class="level">Nivel 1 de clases Musica</div>
+            <h2>$1,500</h2>
+            <ol>
+              <li>Clases de Canto.</li>
+              <li>Clases de composicion musical.</li>
+              <li>Clases de Afinacion de Voz.</li>
+              <li>Clases de Guitarra Acustica.</li>
+            </ol>
+            <button class="btn">Comprar</button>
+          </div>
+          <div class="product" id="bass">
+            <div class="level">Nivel 2 de clases musica</div>
+            <h2>$2,500.00</h2>
+            <ol>
+              <li>Clases de canto nivel 2</li>
+              <li>Clases de composicion musical Nivel 2</li>
+              <li>Clases de Afinacion de Voz Nivel 2</li>
+              <li>Clases de Guitarra Acustica y bateria y violim Nivel 2</li>
+            </ol>
+            <button class="btn">Comprar</button>
+          </div>
+          <div class="product" id="valve">
+            <div class="level">Nivel 3 de clases de Musica </div>
+            <h2>$1790.00</h2>
+            <ol>
+              <li>Clases de canto nivel 3 profeccional</li>
+              <li>Clases de composicion musical Nivel 3</li>
+              <li>Clases de Afinacion de Voz Nivel 3</li>
+              <li>Clases de Guitarra Acustica y piano y bateria y violim</li>
+            </ol>
+            <button class="btn">Comprar</button>
+          </div>
+        </section>
+        <footer>
+          <ul>
+            <li><a href="#">Servicios</a></li>
+            <li><a href="#">Privacidad</a></li>
+            <li><a href="#">Numeros Telefonicos</a></li>
+          </ul>
+          <span>Escuela de Musica.eu</span>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>

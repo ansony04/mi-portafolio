@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main id="main">
+      <h1 id="title">Historia de la coca cola</h1>
+      <p>Creador John S. Pemberton </p>
+      <figure id="img-div">
+        <img
+          id="image"
+          src="http://4.bp.blogspot.com/--xajnDGIup8/Vp2LYFfiQ9I/AAAAAAAAA20/yaghPePu6dc/s1600/3er%2B1.jpg"
+          alt="Honduras ha sido habitada por muchos pueblos aborígenes desde hace más de once mil años"
+        />
+        <figcaption id="img-caption">
+          Honduras ha sido habitada por muchos pueblos aborígenes desde hace más de once mil años.
+        </figcaption>
+      </figure>
+      <section id="tribute-info">
+        <h3 id="headline">Esto paso en los años de los aborigenes:</h3>
+        <ul>
+          <li><strong>Once mil años</strong> en el occidente fue habilitado  por los mayas, el oriente, la parte suroccidental fue habitada por los lencas, la parte norte por los tolupanes y el territorio noroccidental por los Pech, todos estos grupos sociales mantenían relaciones comerciales entre sí y con otras poblaciones tan distantes como México y Panamá. </li>
+          <li>
+            <strong>Españoles llegaron en el siglo XV</strong>  Cuando los conquistadores españoles llegaron en el siglo XVI comenzó una mezcla de culturas, posteriormente la independencia de centroamérica y la formación del estado de Honduras.
+          </li>
+          <li>
+            <strong>Conquista española</strong> Antes de la Conquista española, Honduras estaba habitada por pueblos que se caracterizaban por dos tipos culturales diferentes, formado como producto de las migraciones que poblaron el continente americano, en la época precolombina.
+          </li>
+          <li>
+            <strong>Las culturas Maya y Azteca</strong> Estaban regidas por el llamado "modo de producción asiático", cuya característica más sobresaliente era la existencia de una economía "sedentaria", basada en la producción agrícola, con relaciones de producción de carácter colectivo centralizadas en un poder único que era ejercido por un conjunto de funcionarios civiles, religiosos y militares. Por lo tanto, no eran sociedades igualitarias. La división de clases se establecía entre los que ejercían el poder y la mayoría del pueblo.
+          </li>
+          <li>
+            <strong>Descubrimiento y conquista de Honduras</strong> Cristóbal Colón, contando ya con 66 años de edad salió de Cádiz el 9 de Mayo de 1502, con cuatro carabelas y 150 hombres, llevando a su lado a su hermano Bartolo y a su hijo Fernando de 13 años fruto de su segundo matrimonio. El 20 de Mayo tocó las Canarias; reconoció la isla de Martinica el 15 de Junio, desembarcó en Dominica; recorrió la costa meridional de Puerto Rico; paso por el sur de la Española, pero no desembarcó en ella porque Nicolás de Ovando le negó la entrada en el puerto y salió a Jamaica por su costa meridional. Exploró en seguida las costas del Darién y llegó a la isla de Guanaja a la cual llamó Isla de los Pinos en la costa de Honduras.
+          </li>
+          <li>
+            <strong>En la actualidad</strong> 
+            En el año 2001 gana las elecciones Ricardo Maduro quien gobernó el país por cuatro años y dejo muy baja la deuda externa, en el año 2005 gana las elecciones el señor Manuel Zelaya, quien gobernó desde 2006 hasta el 28 de junio del 2009 por medio de un "golpe de estado"; el presidente Mel es expulsado del país hacia Costa Rica en una aeronave de las Fuerzas Armadas de Honduras quienes seguían ordenes dadas por los otros dos poderes del estado. Fue ilegalmente sutituido por el Presidente del congreso, señor Roberto Micheletti quien se mantuvo en el poder hasta el 27 de enero de 2010.
+          </li>
+          <li>
+            <strong>El ganador de las elecciones </strong>
+            presidenciales del mes de noviembre de 2009, fue el candidato del Partido Nacional de Honduras señor Porfirio Lobo Sosa quien asumió la presidencia el 27 de enero del año 2010, hasta la fecha.
+          </li>
+        </ul>
+        <h3>
+          Aqui puedes ver mas sobre la historia :D
+          <a
+            id="tribute-link"
+            href="https://www.familysearch.org/es/wiki/Historia_de_Honduras#:~:text=Honduras%20ha%20sido%20habitada%20por,estos%20grupos%20sociales%20manten%C3%ADan%20relaciones"
+            target="_blank"
+            >Familiy Search</a
+          >.
+        </h3>
+      </section>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <h1 id="title" class="text-center">Encuesta de mi Taller</h1>
+        <p id="description" class="description text-center">
+          Te Brindamos el mejor servicio para tu vehiculo.
+        </p>
+
+      </header>
+      
+      <form id="survey-form">
+
+         <p> 
+          Bienvenido a nuestro Taller:
+        </p>
+
+        <div class="form-group">
+          <label id="name-label" for="name">Nombre</label>
+          <input
+            type="text"
+            name="name"
+            id="name"
+            class="form-control"
+            placeholder="Ingresen su nombre completo"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label id="email-label" for="coreo">coreo</label>
+          <input
+            type="email"
+            name="coreo"
+            id="email"
+            class="form-control"
+            placeholder="Ingrese su coreo"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label id="number-label" for="number"
+            >Edad<span class="clue"></span></label
+          >
+          <input
+            type="number"
+            name="age"
+            id="number"
+            min="10"
+            max="99"
+            class="form-control"
+            placeholder="Edad"
+          />
+        </div>
+        <div class="form-group">
+          <p>Ingrese el servicio que le quiere brindar a su vehiculo: </p>
+          <select id="dropdown" name="role" class="form-control" required>
+            <option disabled selected value>Seleccione el servicio que desea</option>
+            <option value="Python">Escaneo</option>
+            <option value="C++">Cambio de Aceite</option>
+            <option value="JavaScript">Cambio de fricciones</option>
+            <option value="Java">Cambio de amortiguadores</option>
+            <option value="Julia">Cambio de bujias</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <p>¿Que tal le parece  nuestro servicio
+          <label>
+            <input
+              name="user-recommend"
+              value="definitely"
+              type="radio"
+              class="input-radio"
+              checked
+            />Bueno
+          <label>
+            <input
+              name="user-recommend"
+              value="maybe"
+              type="radio"
+              class="input-radio"
+            />Exelente
+          <label
+            ><input
+              name="user-recommend"
+              value="not-sure"
+              type="radio"
+              class="input-radio"
+            />muy bueno>
+        </div>
+
+        <div class="form-group">
+          <p>¿Donde nos contactaste?
+          <select id="most-like" name="mostLike" class="form-control" required>
+            <option disabled selected value>Seleccione una opción</option>
+            <option value="Honduras">Facebook>
+            <option value="Guatemala">Recomendado></option>
+            <option value="El salvador">por sus anuncios</option>
+            <option value="Nicaragua">un amigo me recomendo</option>
+            <option value="Costa Rica">es muy reconocido el lugar</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <p>
+            ¿Por qué razón busco de nuestros servicios?
+            <p>
+            <span class="clue">(Seleccione las razones que guste)</span>
+            </p>
+          </p>
+
+          <label
+            ><input
+              name="prefer"
+              value="cudiosidad"
+              type="checboox"
+              class="input-checkbox"
+            />hay muy buen servicio</label
+          >
+          <label>
+            <input
+              name="prefer"
+              value="Curiosidad"
+              type="checkbox"
+              class="input-checkbox"
+            />Tienen todo el equipo necesario</label
+          >
+          <label
+            ><input
+              name="prefer"
+              value="Mejorar mis habilidades"
+              type="checkbox"
+              class="input-checkbox"
+            />Trabajan limpiamente</label
+          >
+          <label
+            ><input
+              name="prefer"
+              value="challenges"
+              type="checkbox"
+              class="input-checkbox"
+            />para que mi vehiculo este en buenas condiciones</label
+          >
+         
+        </div>
+
+        <div class="form-group">
+          <p>¿Hay algun otro servicio que desea que isieramos para su vehiculo?
+          </p>
+
+          <p>
+            <span class="clue">
+              (de ser así, escriba su razón en su espacio en blanco a continuación...)
+              </span>
+          </p>
+          
+
+          <textarea
+            id="comments"
+            class="input-textarea"
+            name="comment"
+            placeholder="Ingrese su comentario aquí ..."
+          ></textarea>
+        </div>
+
+        <div class="form-group">
+         
+          <button type="submit" id="submit" class="submit-button">
+            Submit
+          </button>
+        
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
